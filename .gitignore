@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+test_venv/
+mock_venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Logs
+*.log
+*.log.*
+logs/
+*.txt.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ROS2 build artifacts (if building locally)
+install/
+log/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files (keep .env.example, ignore actual .env with secrets)
+# .env  # Uncomment if you have secrets in .env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large generated files
+cbs_output
+
+# Temporary files
+*.tmp
+*.temp
